@@ -2,9 +2,9 @@
 #include "Usuario.hpp"
 
 TEST_CASE("Usuário deve saber informar seu primeiro nome") {
-    Usuario vinicius("Vinicius Dias");
+    Usuario bruno("Bruno Winkeler");
 
-    std::string primeiroNome = vinicius.recuperaPrimeiroNome();
+    std::string primeiroNome = bruno.recuperaPrimeiroNome();
 
-    REQUIRE("Vinicius" == primeiroNome);
+    REQUIRE("Bruno" == primeiroNome);
 }

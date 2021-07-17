@@ -3,7 +3,7 @@
 
 Leilao emOrdemCrescente()
 {
-    Lance primeiroLance(Usuario("Vinicius Dias"), 1000);
+    Lance primeiroLance(Usuario("Bruno Winkeler"), 1000);
     Lance segundoLance(Usuario("Ana Maria"), 2000);
     Leilao leilao("Fiat 147 0Km");
     leilao.recebeLance(primeiroLance);
@@ -14,7 +14,7 @@ Leilao emOrdemCrescente()
 
 Leilao emOrdemDecrescente()
 {
-    Lance primeiroLance(Usuario("Vinicius Dias"), 2000);
+    Lance primeiroLance(Usuario("Bruno Winkeler"), 2000);
     Lance segundoLance(Usuario("Ana Maria"), 1000);
     Leilao leilao("Fiat 147 0Km");
     leilao.recebeLance(primeiroLance);
@@ -49,7 +49,7 @@ TEST_CASE("Avaliador") {
 
     SECTION("Deve recuperar os 3 maiores lances") {
         // Arrange - Given
-        Lance primeiroLance(Usuario("Vinicius Dias"), 1000);
+        Lance primeiroLance(Usuario("Bruno Winkeler"), 1000);
         Lance segundoLance(Usuario("Ana Maria"), 2000);
         Lance terceiroLance(Usuario("Pedro Paulo"), 1500);
         Lance quartoLance(Usuario("Patricia Roberta"), 2500);

@@ -5,10 +5,10 @@
 TEST_CASE("Leilão não deve receber lances consecutivos do mesmo usuário") {
     // Arrange
     Leilao leilao("Fiat 147 0Km");
-    Usuario vinicius("Vinicius Dias");
+    Usuario bruno("Bruno Winkeler");
     
-    Lance primeiroLance(vinicius, 1000);
-    Lance segundoLance(vinicius, 1500);
+    Lance primeiroLance(bruno, 1000);
+    Lance segundoLance(bruno, 1500);
     
     // Act
     leilao.recebeLance(primeiroLance);

@@ -23,6 +23,7 @@ CPMAddPackage(
     GITHUB_REPOSITORY gabime/spdlog
     VERSION 1.8.5)
 
+# Alternative use case
 CPMAddPackage("gh:catchorg/Catch2@2.13.4")
 
 include_directories(${CMAKE_SOURCE_DIR}/tests)
